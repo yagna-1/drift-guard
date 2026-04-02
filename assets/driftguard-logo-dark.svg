@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+  <title id="title">DriftGuard logo (dark)</title>
+  <desc id="desc">Shield icon with pulse line and DriftGuard wordmark for dark backgrounds.</desc>
+  <rect x="0" y="0" width="640" height="180" rx="18" fill="#0b1220" />
+  <path d="M56 30 L116 18 L176 30 V78 C176 116 150 144 116 158 C82 144 56 116 56 78 Z" fill="none" stroke="#94a3b8" stroke-width="8" stroke-linejoin="round" />
+  <path d="M76 90 H94 L106 70 L122 112 L136 82 L156 82" fill="none" stroke="#60a5fa" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="156" cy="82" r="6" fill="#5eead4" />
+  <text x="220" y="95" fill="#e2e8f0" style="font:700 58px system-ui, -apple-system, Segoe UI, Roboto, sans-serif;letter-spacing:.5px;">DriftGuard</text>
+  <text x="222" y="126" fill="#94a3b8" style="font:500 18px system-ui, -apple-system, Segoe UI, Roboto, sans-serif;">Git for API shapes</text>
+</svg>

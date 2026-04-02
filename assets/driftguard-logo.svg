@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-labelledby="title desc">
+  <title id="title">DriftGuard logo</title>
+  <desc id="desc">Shield icon with pulse line and DriftGuard wordmark.</desc>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #2563eb;
+      --accent2: #0f766e;
+      --stroke: #1e293b;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --text: #e2e8f0;
+        --muted: #94a3b8;
+        --accent: #60a5fa;
+        --accent2: #5eead4;
+        --stroke: #94a3b8;
+      }
+    }
+    .bg { fill: var(--bg); }
+    .wordmark { fill: var(--text); font: 700 58px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; letter-spacing: 0.5px; }
+    .tag { fill: var(--muted); font: 500 18px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    .shield { fill: none; stroke: var(--stroke); stroke-width: 8; stroke-linejoin: round; }
+    .pulse { fill: none; stroke: var(--accent); stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+    .dot { fill: var(--accent2); }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="640" height="180" rx="18" />
+
+  <path class="shield" d="M56 30 L116 18 L176 30 V78 C176 116 150 144 116 158 C82 144 56 116 56 78 Z" />
+  <path class="pulse" d="M76 90 H94 L106 70 L122 112 L136 82 L156 82" />
+  <circle class="dot" cx="156" cy="82" r="6" />
+
+  <text class="wordmark" x="220" y="95">DriftGuard</text>
+  <text class="tag" x="222" y="126">Git for API shapes</text>
+</svg>

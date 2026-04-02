@@ -1,5 +1,11 @@
 # DriftGuard
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/driftguard-logo-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/driftguard-logo-light.svg">
+  <img alt="DriftGuard logo" src="./assets/driftguard-logo-light.svg">
+</picture>
+
 **Git for API shapes.**
 
 DriftGuard is a transparent HTTP proxy that learns response schemas from real traffic, pins them in your repo, and fails CI when a breaking API change is introduced.
