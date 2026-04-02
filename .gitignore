@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# DriftGuard runtime log (schemas under .driftguard/schemas/ stay versioned)
+.driftguard/violations.log
+.driftguard/report.json
+.driftguard/report.md
+.cursor/
