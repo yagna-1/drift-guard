@@ -172,9 +172,11 @@ When a change is intentional:
 - Extremely dynamic payloads may require variant/context tuning.
 - Path normalization uses heuristics and may need custom extensions for edge patterns.
 
-## Contributing
+## Community
 
-Issues and PRs are welcome. For substantial changes, open an issue first to align on design and rollout.
+- [Contributing Guide](./CONTRIBUTING.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
+- [Security Policy](./SECURITY.md)
 
 ## License
 
